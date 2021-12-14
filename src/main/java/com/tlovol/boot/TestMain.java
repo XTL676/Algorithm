@@ -1,4 +1,4 @@
-package com.tlovol.stack;
+package com.tlovol.boot;
 
 import static com.tlovol.queue.ArrayQueue.arrayQueueTest;
 
