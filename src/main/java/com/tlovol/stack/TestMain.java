@@ -1,6 +1,6 @@
 package com.tlovol.stack;
 
-import com.tlovol.array.SparseArray;
+import static com.tlovol.queue.ArrayQueue.arrayQueueTest;
 
 public class TestMain {
     public static void main(String[] args) {
@@ -17,6 +17,9 @@ public class TestMain {
         //OneWayCircularLinkedList.oneWayCircularLinkedListTest();
 
         //稀疏数组
-        SparseArray.sparseArrayTest();
+        //SparseArray.sparseArrayTest();
+
+        //数组实现队列
+        arrayQueueTest();
     }
 }
